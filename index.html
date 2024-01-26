@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma</title>
+    <style>
+        .header-1{
+            display: flex;
+            width: 100vw;
+padding: 0px 59px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 13px;
+background: var(--dark-background-color, #252B42);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        }
+        .container{
+            display: flex;
+width: 1322px;
+height: 91px;
+justify-content: center;
+align-items: center;
+        }
+        .navbar-style-2{
+            width: 1322px;
+height: 91px;
+flex-shrink: 0;}
+
+.navbar-brand{
+    display: inline-block;
+padding: 13px 42px 13px 0px;
+align-items: center;
+margin-left: -300px;
+}   
+h3{
+    color: var(--light-text-color, #FFF);
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+letter-spacing: 0.1px;
+color: #FFFFFF;
+text-transform: uppercase;
+}
+.span{
+    display: inline-block;
+    margin-left: 200px;
+    width: 800px;
+    height: 20px;
+    line-height: 32px; /* 133.333% */
+letter-spacing: 0.1px;
+color: #FFFFFF;
+text-transform: capitalize;
+padding: 13px 42px 13px 0px;
+align-items: center;
+color: var(--light-text-color, #FFF);
+font-family: Montserrat;
+    
+} 
+.nav{
+    padding-right: 21px;
+}
+.login{
+    align-items: center;
+color: var(--light-text-color, #FFF);
+font-family: Montserrat;
+padding-left: 240px;
+}
+.button{
+    padding: 15px 25px;
+    border-radius: 5px;
+    background: var(--primary-color, #23A6F0);
+    color: var(--light-text-color, #FFF);
+    font-family: Montserrat;
+    margin-left: 45px;
+
+}
+.container-2{
+    display: flex;
+width: 1046px;
+padding: 80px 0px;
+flex-direction: column;
+align-items: center;
+gap: 80px;
+height: 1046px;
+position: relative;
+/* border: 1px solid green; */
+margin-right: 180px;
+}
+.row{
+    display: flex;
+width: 701px;
+flex-direction: column;
+align-items: center;
+height: 510px;
+position: absolute;
+left: 140px;
+/* border: 1px solid red; */
+}
+.welcome{
+    color: var(--primary-color, #23A6F0);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+letter-spacing: 0.1px;
+padding-top: 40px;
+}
+.Selling{
+    color: var(--light-text-color, #FFF);
+text-align: center;
+font-family: Montserrat;
+font-size: 58px;
+font-style: normal;
+font-weight: 700;
+line-height: 80px; /* 137.931% */
+letter-spacing: 0.2px;
+padding-top: 40px;
+}
+.sub-headline{
+    color: var(--light-text-color, #FFF);
+text-align: center;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+letter-spacing: 0.2px;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+#button{
+    display: flex;
+}
+.button-1{
+    display: flex;
+padding: 15px 40px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+border-radius: 5px;
+background: var(--primary-color, #077cca);
+color: var(--light-text-color, #FFF);
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; /* 157.143% */
+letter-spacing: 0.2px;
+margin-right: 10px;
+}
+.button-1:hover{
+    display: flex;
+padding: 15px 40px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+border-radius: 5px;
+background: var(--primary-color, #0495f696);
+color: var(--light-text-color, #171616);
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; /* 157.143% */
+letter-spacing: 0.2px;
+margin-right: 10px;
+}
+.button-2{
+    display: flex;
+padding: 15px 40px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+border-radius: 5px;
+border: 1px solid var(--primary-color, #23A6F0);
+color: var(--primary-color, #23A6F0);
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; /* 157.143% */
+letter-spacing: 0.2px;
+}
+.button-2:hover{
+    display: flex;
+padding: 15px 40px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+border-radius: 5px;
+border: 1px solid var(--primary-color, #23A6F0);
+color: var(--primary-color, #ecf2f6);
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; /* 157.143% */
+letter-spacing: 0.2px;
+}
+#card{
+    display: flex;
+    width: 100%;
+    height: 453px;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    row-gap: 20px;
+    padding: 80px 0px;
+    position: absolute;
+    /* border: 1px solid yellow; */
+    position: absolute;
+    bottom: 0px;
+}
+.card-1{
+    display: flex;
+width: 328px;
+height: 343.8px;
+flex-direction: row;
+gap: 29px;
+align-items: flex-start;
+background: var(--light-background-color, #FFF);
+box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+.card-1-5{
+    display: flex;
+width: 328px;
+height: 80%;
+margin: 39px 40px;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+gap: 20px;
+background: var(--light-background-color, #FFF);
+box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+.fixed-width{
+    display: flex;
+padding: 22px 19px;
+flex-direction: column;
+justify-content: left;
+align-items: flex-start;
+gap: 10px;
+border-radius: 10px;
+background: var(--faded-secondary-color-2, #FFDCD1);
+float: left;
+display: inline-block;
+}
+svg{
+    width: 32px;
+height: 32px;
+}
+.h3-feature-title-1{
+width: 155px;
+height: 24px;
+/* border: 1px solid red; */
+padding-top: 20px;
+padding-bottom: 20px;
+color: var(--text-color, #252B42);
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+letter-spacing: 0.1px;
+}
+.line{
+    width: 50px;
+height: 2px;
+background: var(--danger-color, #E74040);
+}
+.para{
+    color: var(--second-text-color, #737373);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.2px;
+width: 222px;
+height: 60px;
+}
+.packages{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    left: 214px;
+    width: 1046px;
+    height: 600px;
+    /* border: 1px solid #077cca; */
+    position: relative;
+}
+.pack-1{
+    display: flex;
+width: 507px;
+flex-direction: column;
+align-items: flex-start;
+gap: 35px;
+    height: 255px;
+    /* border: 1px solid gray; */
+    margin-left: 30px;
+}
+.p-1{
+color: var(--text-color, #252B42);
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 50px; /* 125% */
+letter-spacing: 0.2px;
+margin: 0px;
+}
+.p-2{
+color: var(--second-text-color, #737373);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.2px;
+margin: 0px;
+}
+.p-3{
+    color: var(--primary-text-color, #23A6F0);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.2px;
+margin: 0px;
+display: inline-block;
+}
+.arrow{
+    width: 9px;
+height: 16px;
+display: inline;
+padding-top: 2px;
+}
+#arrow-icon{
+    width: 9px;
+height: 10px;
+}
+.photo{
+/* border: #E74040 1px solid; */
+width: 513px;
+height: 395px;
+flex-shrink: 0;
+display: inline-block;
+}
+
+.row-2{
+    display: flex;
+align-items: center;
+gap: 30px;
+align-self: stretch;
+/* border: #171616 1px solid; */
+width: 1050px;
+height: 395px;
+position: absolute;
+left: 0;
+}
+
+    </style>
+</head>
+<body>
+    <header class="header-1">
+        <div class="container">
+            <div class="navbar-stayle-2">
+                <div class="navbar-brand">
+                 <h3>Abdul Rehman</h3>
+                </div>
+             <div class="span">
+                <span class="nav">home</span>
+                <span class="nav">product</span>
+                <span class="nav">pricing</span>
+                <span class="nav">contact</span>
+                <span class="login">Login</span>
+                <span class="button">Join Us</span>
+             </div>
+            </div>
+
+        </div>
+        <div class="container-2">
+            <div class="row">
+                <span class="welcome">welcome</span>
+                <span class="Selling">Selling on the <br> internet like a pro</span>
+                <span class="sub-headline">We know how large objects will act, but things on a <br>
+                    small scale just do not act that way.</span>
+                   <div id="button">
+                    <span class="button-1">Get Quote Now</span>
+
+                    <span class="button-2">Learn More</span>
+                   </div>
+            </div>
+            <div id="card">
+                <div class="card-1">
+                    <div class="card-1-5">
+                        <div class="fixed-width">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <path d="M16.0003 29.3333C8.63653 29.3333 2.66699 23.3638 2.66699 16C2.66699 8.63616 8.63653 2.66663 16.0003 2.66663C23.3641 2.66663 29.3337 8.63616 29.3337 16C29.3256 23.3604 23.3608 29.3252 16.0003 29.3333ZM16.0003 5.33329C10.1093 5.33329 5.33366 10.1089 5.33366 16C5.33366 21.891 10.1093 26.6666 16.0003 26.6666C21.8914 26.6666 26.667 21.891 26.667 16C26.6604 10.1117 21.8886 5.33991 16.0003 5.33329ZM21.3337 22.6666H10.667V20H21.3337V22.6666ZM11.3337 16C10.2291 16 9.33366 15.1045 9.33366 14C9.33366 12.8954 10.2291 12 11.3337 12C12.4382 12 13.3337 12.8954 13.3337 14C13.3337 15.1045 12.4382 16 11.3337 16ZM20.6577 15.9813C19.5582 15.9813 18.667 15.09 18.667 13.9906C18.667 12.8912 19.5582 12 20.6577 12C21.7571 12 22.6483 12.8912 22.6483 13.9906C22.6469 15.0894 21.7565 15.9798 20.6577 15.9813Z" fill="#E74040"/>
+                              </svg>
+                        </div>
+                        <div class="h3-feature-title-1">
+                            training Courses
+                        </div>
+                        <div class="line"></div>
+                        <div class="para">
+                            The gradual accumulation of 
+                               information about atomic and 
+                               small-scale behaviour...
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card-1">
+                        <div class="card-1-5">
+                            <div class="fixed-width" style="background: var(--faded-secondary-color-1, #B9EAA8">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                    <path d="M0.443359 17.4201L7.98373 24.9605L9.86373 23.0672L2.33001 15.5335L0.443359 17.4201ZM29.6627 7.04153L15.5304 21.1872L9.88125 15.5247L7.97459 17.4047L15.5304 24.9605L31.5561 8.93487L29.6627 7.04153ZM24.0115 8.93276L22.1315 7.03943L13.6371 15.5338L15.5304 17.4138L24.0115 8.93276Z" fill="#2DC071"/>
+                                  </svg>
+                            </div>
+                            <div class="h3-feature-title-1">
+                                2,769 online courses
+                            </div>
+                            <div class="line"></div>
+                            <div class="para">
+                                The gradual accumulation of 
+                                   information about atomic and 
+                                   small-scale behaviour...
+                            </div>
+                        </div>
+                        <br>
+                        <div class="card-1" style="background: var(--primary-color, #23A6F0">
+                            <div class="card-1-5" style="background: var(--primary-color, #23A6F0">
+                                <div class="fixed-width" style="background: var(--light-background-color, #FFF">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                        <path d="M26.667 26.6667H5.33366C3.8609 26.6667 2.66699 25.4728 2.66699 24V8.00004C2.66699 6.52728 3.8609 5.33337 5.33366 5.33337H26.667C28.1398 5.33337 29.3337 6.52728 29.3337 8.00004V24C29.3337 25.4728 28.1398 26.6667 26.667 26.6667ZM5.33366 16V24H26.667V16H5.33366ZM5.33366 8.00004V10.6667H26.667V8.00004H5.33366ZM17.3337 21.3334H8.00033V18.6667H17.3337V21.3334Z" fill="#23A6F0"/>
+                                      </svg>
+                                </div>
+                                <div class="h3-feature-title-1" style="color: #FFF;">
+                                    training Courses
+                                </div>
+                                <div class="line" style="background: var(--light-background-color, #FFF"></div>
+                                <div class="para" style="color: #FFF;">
+                                    The gradual accumulation of 
+                                       information about atomic and 
+                                       small-scale behaviour...
+                                </div>
+                            </div>
+            </div>
+            
+        </div>
+    </header>
+    
+
+    <div class="packages">
+        <div class="row-2">
+<div class="pack-1">
+            <p class="p-1">Packages that are 
+aprodable</p>
+            <p class="p-2">Problems trying to resolve the conflict between 
+the two major realms of Classical physics: 
+Newtonian mechanics </p>
+            <p class="p-3">Learn More <span class="arrow"><svg id="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="9" height="17" viewBox="0 0 9 17" fill="none">
+  <g clip-path="url(#clip0_1_151)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.180771 0.680771C0.237928 0.623469 0.305828 0.578007 0.380583 0.546987C0.455337 0.515967 0.535477 0.5 0.616412 0.5C0.697347 0.5 0.777487 0.515967 0.852241 0.546987C0.926996 0.578007 0.994896 0.623469 1.05205 0.680771L8.4358 8.06452C8.4931 8.12168 8.53857 8.18958 8.56959 8.26433C8.60061 8.33909 8.61657 8.41923 8.61657 8.50016C8.61657 8.5811 8.60061 8.66123 8.56959 8.73599C8.53857 8.81074 8.4931 8.87864 8.4358 8.9358L1.05205 16.3196C0.936514 16.4351 0.779809 16.5 0.616412 16.5C0.453015 16.5 0.29631 16.4351 0.180771 16.3196C0.0652316 16.204 0.000322157 16.0473 0.000322157 15.8839C0.000322157 15.7205 0.0652316 15.5638 0.180771 15.4483L7.13011 8.50016L0.180771 1.55205C0.123469 1.4949 0.078006 1.427 0.0469863 1.35224C0.0159666 1.27749 0 1.19735 0 1.11641C0 1.03548 0.0159666 0.955338 0.0469863 0.880583C0.078006 0.805829 0.123469 0.737928 0.180771 0.680771Z" fill="#23A6F0"/>
+  </g>
+  <defs>
+    <clipPath id="clip0_1_151">
+      <rect width="9" height="16" fill="white" transform="translate(0 0.5)"/>
+    </clipPath>
+  </defs>
+</svg></span></p>
+            
+<div class="photo">
+        </div>
+        </div>
+        
+
+    </div>
+</body>
+</html>
